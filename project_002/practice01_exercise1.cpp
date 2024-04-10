@@ -52,7 +52,7 @@ int main () {
     std::cin>>edad;
     estudiante_1.setAge(edad);
 
-    Student estudiante_2{"estudainte_1",0};
+    Student estudiante_2{"estudiante_2",0};
     std::cout<<"Ingrese el nombre del segundo estudiante: "<<std::endl;
     std::cin.ignore();
     std::getline(std::cin, nombre_estudiante);
